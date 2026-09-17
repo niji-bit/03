@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main(void){
-    char c;
-    char d;
+    int a;
+    int b;
 
-    printf("enter a character:");
-    scanf("%c",&c);
+    printf("numerator :");
+    scanf("%i",&a);
+    printf("\ndenominator :");
+    scanf("%i",&b);
     
-    d= c+1;
-    printf("The next character of %c is %c\n",c,d);
+    printf("The result is %f\n",(float)a/b);
     
     return 0;
 }
